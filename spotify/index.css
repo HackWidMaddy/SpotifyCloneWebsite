@@ -1,0 +1,146 @@
+body{
+  background-image: url("bg.png");
+    backdrop-filter: blur(5px); 
+    background-size:cover;
+    
+
+display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+}
+#container{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+  text-align: center;
+}
+#hedforspf{
+    color: white;
+    text-decoration-color: white;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1em;
+}
+
+
+#login{
+border-radius: 2em;
+background-color: rgb(59, 187, 59);
+width: 25em;
+height: 3em;
+color: aliceblue;
+border: none;
+ transition: ease-in-out 1s;
+}
+
+
+#login:hover{
+  background: #20D71E;
+  background: -webkit-linear-gradient(top left, #20D71E, #6A9117);
+  background: -moz-linear-gradient(top left, #20D71E, #6A9117);
+  background: linear-gradient(to bottom right, #20D71E, #6A9117); 
+transform: scale(1.1); /* Equal to scaleX(0.7) scaleY(0.7) */
+}
+
+
+
+#signup{
+  color:rgb(184, 184, 184);
+  cursor:pointer;
+}
+
+
+
+#signup2{
+  color: white;
+}
+
+
+#uncontainer{
+  display: none;
+ 
+ background-color: black;
+ width: 400px;
+ height: 550px;
+text-align: center;
+
+}
+#createemail,#createpassword,#Usernamme{
+  width: 25em;
+  height: 2.5em;
+  background-color: #2c3824;
+  color: white;
+  border:none;
+}
+
+#popup{
+  background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+  border:1px solid #a6ca8a;
+  display: none;
+  width: 25em;
+  height: 1.5em;
+  
+  font-family: 'Shizuru', cursive;
+
+}
+
+#uncontainerlogin{
+  display: none;
+  background-color: black;
+  width: 400px;
+  height: 500px;
+text-align: center;
+}
+
+#resetpassss{
+  color: white;
+  display: block;
+  text-align: left;
+  padding-left: 1.7em;
+}
+
+#login2{
+  border-radius: 2em;
+background-color: white;
+width: 25em;
+height: 3em;
+color: black;
+border: none;
+ transition: ease-in-out 1s;
+}
+
+
+
+
+
+
+#createemail1,#createpassword1{
+  width: 25em;
+  height: 2.5em;
+  background-color: #2c3824;
+  color: white;
+  border:none;
+}
+
+#popup2{
+  background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+  border:1px solid #a6ca8a;
+  display: none;
+  width: 25em;
+  height: 1.5em;
+  
+  font-family: 'Shizuru', cursive;
+  
+}
+
+
+
+
+
+
+/* Imported Fonts From Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Condensed:wght@300&display=swap');

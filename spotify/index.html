@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+    <link rel="stylesheet" href="index.css">
+    <title>Spotify</title>
+</head>
+<body>
+    <div id="container">
+        <br>
+        <img src="spotifylogo.JPG">
+        <br>
+        <br>
+        <h1 id="hedforspf">Millions Of Songs <br>Free On Spotify.</h1>
+        <br>
+        <input type="button" id="login" value="LOG IN" onclick="loginn()">
+        <br>
+        <br>
+        <p id="signup"  onclick="frame2()">Dont have an account? <span id="signup2"><u>SIGNUP</u></span></p>
+    </div>
+
+
+    <div id="uncontainer">
+        <br>
+        <img src="spotifylogo.JPG">
+        <br>
+        
+        <h1 id="hedforspf">Sign up for a free <br>Spotify account</h1>
+        
+<form id="form1" action="javascript:void(0);" onsubmit="popupclerification()">
+<input type="email" id="createemail" placeholder="Email"  onfocus="onfocusform1()" required><br><br>
+<input type="password" id="createpassword"  placeholder="Create a password" required><br><br>
+<input type="text" id="Usernamme"  placeholder="What should we call you?" required><br><br>
+<input type="submit" id="login" value="CONTINUE">
+
+    </form>
+    <br>
+    <p id="signup" onclick="redirectloginpg()">Already have a account? <span id="signup2"><u>LOGIN</u></span></p>
+
+    <p id="popup">Your Account Has Been Created Please Login</p>
+
+</div>
+
+
+
+
+
+
+
+<div id="uncontainerlogin">
+    <br>
+    <img src="spotifylogo.JPG">
+    <br>
+    
+    <h1 id="hedforspf"> Login to continue</h1>
+    
+<form id="form1" action="javascript:void(0);" onsubmit="popupclerification()">
+<input type="email" id="createemail1" placeholder="Email"  onfocus="onfocusform1()" required><br><br>
+<input type="password" id="createpassword1"  placeholder="Enter the password" required><br><br>
+<a href="https://www.spotify.com/in-en/password-reset/?utm_source=spotify&utm_medium=login_box&utm_campaign=forgot_password" target="_blank"><p id="resetpassss">Reset Password</p></a>
+<input type="submit" id="login2" value="CONTINUE" onclick="redirectotmainpage()">
+
+</form>
+<br>
+<p id="signup" onclick="redirectotsignup()">Don't have an account? <span id="signup2"><u>SIGNUP</u></span></p>
+
+<p id="popup2">Please Enter Valid Crediontials</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+    <!-- all scripts -->
+    <script>
+    // loginsign forms
+function frame2(){
+  var display =   document.getElementById("uncontainer");
+var nodisplay =   document.getElementById("container");
+
+nodisplay.style.display="none";
+display.style.display = "block";
+
+
+
+// onfocus
+function onfocusform1(){
+    var a = document.getElementById("#createemail")
+    a.style.color="#6fba3f"
+}
+}
+
+
+function popupclerification(){
+ var popup =    document.getElementById("popup");
+if(popup==""){
+    popup.style.display="none"
+}
+else{
+    popup.style.display="block"
+
+}
+}
+
+
+
+
+
+
+function loginn(){
+    var nodisplay =   document.getElementById("container");
+    var uncontainerlogin=   document.getElementById("uncontainerlogin");
+
+    nodisplay.style.display="none"
+    uncontainerlogin.style.display="block"
+
+}
+
+
+
+function redirectloginpg(){
+ var uncontainerlogin =    document.getElementById("uncontainerlogin");
+var container = document.getElementById("container");
+uncontainer.style.display="none";
+uncontainerlogin.style.display="block"
+
+}
+
+
+
+function redirectotsignup(){
+    var uncontainer = document.getElementById("uncontainer");
+    var uncontainerlogin = document.getElementById("uncontainerlogin");
+    uncontainerlogin.style.display="none";
+uncontainer.style.display="block";
+
+}
+
+
+
+
+// form validation redirection
+function redirectotmainpage(){
+
+var a = document.getElementById("createemail1").value;
+var b = document.getElementById("createpassword1").value;
+
+if(a=="music@sbmp.com" && b=="music123"){
+window.location = "mainpage.html"; // Redirecting to other page.
+}
+else{
+var c = document.getElementById("popup2")
+c.style.display="block";
+}
+}
+        </script>
+</body>
+</html>

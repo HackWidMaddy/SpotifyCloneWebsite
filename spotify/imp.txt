@@ -1,0 +1,108 @@
+<div class="container1">
+<p id="dots">...</p><br>
+<p id="home"><span id="home2">&#8962;</span>    Home</p>
+<br>
+<p id="search"><span class="fa fa-search" id="search2"></span>        Search</p>
+
+
+<br>
+<p id="library"><span id="library2">||\</span>                     Your Library</p>
+
+</div>
+
+
+    <div class="container2">
+
+    </div>
+
+
+
+    <div class="container3">
+
+    </div>
+
+
+
+    csssssss
+
+
+    
+.container1{
+    height: 100%;
+    width: 15%;
+    
+    color: #d3d0d0;
+    border: none;
+    background:url("bgcontainer1.jpg");
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+
+    vertical-align: baseline;
+    
+    
+}
+#dots{
+font-size: 3em;
+padding-left: 0.3em;
+}
+#home{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.5em;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+
+}
+
+#home2{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    transition: all;
+padding-left: 0.5em;    
+}
+#home:hover{
+color: white;}
+
+
+
+#search{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.5em;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+
+
+}
+#search:hover{
+    color: white;}
+    
+#search2{
+    transition: all;
+padding-left: 0.7em;    
+
+}
+
+
+
+#library{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+        
+}
+#library2{
+    transition: all;
+padding-left: 0.7em;
+padding-left: 1em; 
+padding-right: 0.2em;   
+
+}
+#library:hover{
+    color: white;}
+    
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');

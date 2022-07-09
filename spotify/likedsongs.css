@@ -1,0 +1,1622 @@
+*{
+    margin: 0%;
+    padding:0%;
+   
+}
+
+html{
+    height: 180%;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    float: right;
+margin: 1%;
+transition: ease-in-out;
+transition-duration: 0.5s;
+
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+body{
+    height: 100%;
+
+
+    background-image: linear-gradient(to bottom, #072655, #002742, #01363b, #00190e, #090d00);}
+
+.cpntainerr{
+width: 100%;
+height: 500px;
+}
+
+#likk{
+    
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(192, 183, 183, 0.5));float: left;
+margin-top: 10%;
+margin-left:5%;
+width: 25%;
+}
+
+
+#liiiiie{
+    color: white;
+    font-weight: 600;
+    font-size: 5em;
+    margin-left: 4.7em;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#plaa{
+    color: #fff;
+    position: absolute;
+    left: 23.7em;
+  
+}
+
+#_{
+    color: grey;
+}
+
+
+
+#innp{
+    color: grey;
+    background-color: rgb(68, 67, 67);
+    border: none;
+    float: right;
+    margin-right: 2em;
+    width: 8em;
+    height: 1.8em;
+   color: white;
+}
+
+#innp2{
+    color: grey;
+    background-color: rgb(68, 67, 67);
+    border: none;
+    float: right;
+    margin-right: 2em;
+    width: 10em;
+    height: 1.8em;
+   color: white;
+
+}
+
+
+.data{
+
+    display:flex;
+    justify-content:space-evenly;
+    color: rgb(196, 193, 193);
+    font-family: fantasy;
+    }
+    
+#srch{
+    color: rgb(209, 205, 205);
+    float: right;
+    margin-right: 10em;
+    position: relative;
+    top: 1.4em;
+
+
+}
+
+
+#has{
+    position: relative;
+    right: 7em;
+}
+
+
+#ttl{
+    position: relative;
+    right: 10em;
+
+}
+
+
+#alb{
+    position: relative;
+    right: 2em;
+
+}
+.pepas{
+    width: 100%;
+    height: 3em;
+    display: flex;
+  align-items: center;
+}
+#imgsss{
+    width: 2em;
+    height: 2em;
+margin-left: 2em;
+}
+#songsname{
+    margin-left: 2em;
+    color: rgb(179, 174, 174);
+    transition: 1s ease-in-out;
+
+}
+
+#no1{
+    margin-left: 1em;
+    color: rgb(179, 174, 174);
+    
+}
+
+#albm{
+    color: rgb(179, 174, 174);
+    margin-left: 12em;
+    transition: 1s ease-in-out;
+
+}
+#dateadd{
+    color: rgb(179, 174, 174);
+    margin-left: 11em;
+}
+#timee{
+    color: rgb(209, 203, 203);
+    margin-left: 9em;
+}
+.songnamess{
+    
+    transition: 1s ease-in-out;
+}
+
+.songnamess:hover{
+    background-color: rgb(63, 61, 61);
+}
+
+
+.songnamess:hover #songsname {
+color: white;
+}
+
+
+.songnamess:hover #albm {
+    color: white;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.thenights{
+    width: 100%;
+    height: 3em;
+    display: flex;
+  align-items: center;
+}
+#imgsss1{
+    width: 2em;
+    height: 2em;
+margin-left: 2em;
+}
+#songsname1{
+    margin-left: 2em;
+    color: rgb(179, 174, 174);
+    transition: 1s ease-in-out;
+
+}
+
+#no1{
+    margin-left: 1em;
+    color: rgb(179, 174, 174);
+    
+}
+
+#albm1{
+    color: rgb(179, 174, 174);
+    margin-left: 8em;
+    transition: 1s ease-in-out;
+
+}
+#dateadd1{
+    color: rgb(179, 174, 174);
+    margin-left: 8.5em;
+}
+#timee2{
+    color: rgb(209, 203, 203);
+    margin-left: 9em;
+}
+.thenights{
+    
+    transition: 1s ease-in-out;
+}
+
+.thenights:hover{
+    background-color: rgb(63, 61, 61);
+}
+
+
+.thenights:hover #songsname1 {
+color: white;
+}
+
+
+.thenights:hover #albm1 {
+    color: white;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    .whatermelonsugar{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname2{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm2{
+        color: rgb(179, 174, 174);
+        margin-left: 5em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd2{
+        color: rgb(179, 174, 174);
+        margin-left: 10em;
+    }
+    #timee2{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .whatermelonsugar{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .whatermelonsugar:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .whatermelonsugar:hover #songsname2 {
+    color: white;
+    }
+    
+    
+    .whatermelonsugar:hover #albm2 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pepas,.thenights,.whatermelonsugar,.money,.lilly,.cheapthrills,.aronachupa,.butter,.badhabits,.jusyholdon,.indusbaby,.wolves{
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    .money{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname3{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm3{
+        color: rgb(179, 174, 174);
+        margin-left: 11.6em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd3{
+        color: rgb(179, 174, 174);
+        margin-left: 10em;
+    }
+    #timee3{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .money{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .money:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .money:hover #songsname3 {
+    color: white;
+    }
+    
+    
+    .money:hover #albm3 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+    
+    .lilly{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname4{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm4{
+        color: rgb(179, 174, 174);
+        margin-left: 9em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd4{
+        color: rgb(179, 174, 174);
+        margin-left: 9em;
+    }
+    #timee4{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .lilly{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .lilly:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .lilly:hover #songsname4 {
+    color: white;
+    }
+    
+    
+    .lilly:hover #albm4 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+        
+    
+    .cheapthrills{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname5{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm5{
+        color: rgb(179, 174, 174);
+        margin-left: 10em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd5{
+        color: rgb(179, 174, 174);
+        margin-left: 9.5em;
+    }
+    #timee5{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .cheapthrills{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .cheapthrills:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .cheapthrills:hover #songsname5 {
+    color: white;
+    }
+    
+    
+    .cheapthrills:hover #albm5 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+    
+    .aronachupa{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname6{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm6{
+        color: rgb(179, 174, 174);
+        margin-left: 11em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd6{
+        color: rgb(179, 174, 174);
+        margin-left: 9.5em;
+    }
+    #timee6{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .aronachupa{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .aronachupa:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .aronachupa:hover #songsname6 {
+    color: white;
+    }
+    
+    
+    .aronachupa:hover #albm6 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+                
+    
+    .butter{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname7{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm7{
+        color: rgb(179, 174, 174);
+        margin-left: 13em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd7{
+        color: rgb(179, 174, 174);
+        margin-left: 11.5em;
+    }
+    #timee7{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .butter{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .butter:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .butter:hover #songsname7 {
+    color: white;
+    }
+    
+    
+    .butter:hover #albm7 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   
+    
+    .badhabits{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname8{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm8{
+        color: rgb(179, 174, 174);
+        margin-left: 8em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd8{
+        color: rgb(179, 174, 174);
+        margin-left:13em;
+    }
+    #timee7{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .badhabits{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .badhabits:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .badhabits:hover #songsname8 {
+    color: white;
+    }
+    
+    
+    .badhabits:hover #albm8 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+                   
+    
+    .jusyholdon{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname9{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm9{
+        color: rgb(179, 174, 174);
+        margin-left: 3em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd9{
+        color: rgb(179, 174, 174);
+        margin-left:9em;
+    }
+    #timee9{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .jusyholdon{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .jusyholdon:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .jusyholdon:hover #songsname9 {
+    color: white;
+    }
+    
+    
+    .jusyholdon:hover #albm9 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    .indusbaby{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname10{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm10{
+        color: rgb(179, 174, 174);
+        margin-left: 4em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd10{
+        color: rgb(179, 174, 174);
+        margin-left:10em;
+    }
+    #timee{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .indusbaby{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .indusbaby:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .indusbaby:hover #songsname10 {
+    color: white;
+    }
+    
+    
+    .indusbaby:hover #albm10 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+    .wolves{
+        width: 100%;
+        height: 3em;
+        display: flex;
+      align-items: center;
+    }
+    #imgsss1{
+        width: 2em;
+        height: 2em;
+    margin-left: 2em;
+    }
+    #songsname11{
+        margin-left: 2em;
+        color: rgb(179, 174, 174);
+        transition: 1s ease-in-out;
+    
+    }
+    
+    #no1{
+        margin-left: 1em;
+        color: rgb(179, 174, 174);
+        
+    }
+    
+    #albm11{
+        color: rgb(179, 174, 174);
+        margin-left: 7em;
+        transition: 1s ease-in-out;
+    
+    }
+    #dateadd11{
+        color: rgb(179, 174, 174);
+        margin-left:11em;
+    }
+    #timee{
+        color: rgb(209, 203, 203);
+        margin-left: 9em;
+    }
+    .wolves{
+        
+        transition: 1s ease-in-out;
+    }
+    
+    .wolves:hover{
+        background-color: rgb(63, 61, 61);
+    }
+    
+    
+    .wolves:hover #songsname11 {
+    color: white;
+    }
+    
+    
+    .wolves:hover #albm11 {
+        color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+.scroller{
+    width: 100%;
+    height: 130px;
+    position:fixed;
+    background-color: #000000;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+border-radius: 2em;
+align-items: center;
+font-family: 'Varela Round', sans-serif;
+}
+
+
+.icons{
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+    animation: hi 0.5s infinite;
+}
+
+@keyframes hi {
+    0%{
+        initial-value: 0;
+    }
+    100%{
+        initial-value: 100;
+    }
+    
+}
+
+
+
+
+.songinfo{
+    position:absolute;
+    left: 10vw;
+    bottom: 1em;
+    
+}
+
+
+
+.songinfo img{
+opacity: 0;
+transition: opacity 1s ease-in-out;
+    position: relative;
+    top: 0.5em;
+}
+
+
+#masterpause{
+    display: none;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&family=The+Nautigal&display=swap');

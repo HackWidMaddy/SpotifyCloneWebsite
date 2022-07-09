@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ebafe7a6d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <span class="fa fa-search" id="srch"></span>
+      <input type="text" id="searchh" placeholder="Artists,song or podcast">
+  <p class="btn">Madhav Shah</p>
+<br>
+<br>
+<p id="good">Recent Searches</p>
+
+
+<br>
+<br>
+
+<div class="contaiiner" onclick="money()">
+
+
+
+<div class="ccc">
+    <center>
+      <img src="lalisa.png" id="pc">
+    </center>
+    <p id="sund" class="songName"><b>Lalisa love me</b></p>
+    <p id="cx" class="songName">~Lalisa</p>
+
+</div>
+
+
+  </div>
+
+
+  <div class="contaiiner2" onclick="playdate()">
+    <center>
+      <img src="playdate.jpg" id="pc">
+    </center>
+    <p id="sund" class="songName"><b>Play Date</b></p>
+    <p id="cx" class="songName">~Melanie Martinez</p>
+
+
+
+  </div>
+
+  </div>
+
+</div>
+  <br>
+
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+
+
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="slide1.JPG" style="width:48%; height:15em; border-radius: 1em;" onclick="badhabits()">
+      <img src="slide2.JPG" style="width:48%; height:15em; border-radius: 1em; float: right;"  onclick="albatrouse()">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="slide2.JPG" style="width:48%; height:15em; border-radius: 1em;" onclick="indusbaby()">
+      <img src="slide3.JPG" style="width:48%; height:15em; border-radius: 1em; float: right;" onclick="top50india()">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="slide3.JPG" style="width:48%; height:15em; border-radius: 1em;" onclick="cheapthrills()">
+      <img src="slide2.JPG" style="width:48%; height:15em; border-radius: 1em; float: right;" onclick="myplaylist1()">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    
+
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+
+<br>
+<br>
+<br>    
+
+
+
+<p id="good">Browse All</p>
+
+
+<br>
+<br>
+<br>    
+
+
+<br>
+<br>
+<br>    
+
+
+
+<div class="line1">
+<div class="conta1" onclick="pepes()">
+<p id="pddx">Pepas</p>
+<center><img src="pepas.jpg" id="imgssssss"></center>
+</div>
+
+
+
+
+
+<div class="conta2" onclick="money()">
+    
+    <p id="pddx">Lalisa</p>
+    <center><img src="lalisa.png" id="imgssssss"></center>
+
+  </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <div class="conta3" onclick="tiktok()">
+        <p id="pddx">Just Hold on</p>
+        <center><img src="justholdon.jpg" id="imgssssss"></center>
+
+        </div>
+        
+
+
+
+
+
+
+
+
+        <div class="conta4" onclick="playdate()">
+            <p id="pddx">Play Date</p>
+            <center><img src="playdate.jpg"" id="imgssssss"></center>
+
+        </div>
+            
+
+</div>
+
+
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="line1">
+    <div class="conta5" onclick="watersugar()">
+    <p id="pddx">Tik-Tok</p>
+    <center><img src="tiktok.JPG" id="imgssssss"></center>
+
+    </div>
+    
+    
+    
+    
+    
+    <div class="conta6" onclick="badhabits()">
+        
+        <p id="pddx">Bad Habits</p>
+        <center><img src="index1.jpg" id="imgssssss"></center>
+
+      </div>
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <div class="conta7" onclick="cheapthrills()">
+            <p id="pddx">Cheap Thrills</p>
+            <center><img src="cheapthrills.jpg" id="imgssssss"></center>
+    
+            </div>
+            
+    
+    
+    
+    
+    
+    
+    
+    
+            <div class="conta8" onclick="indusbaby()">
+                <p id="pddx">Industrial Baby</p>
+                <center><img src="industrialbaby.png" id="imgssssss"></center>
+    
+            </div>
+                
+    
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    
+
+
+
+<div class="line1">
+  <div class="conta9"  onclick="top50indtaa()">
+  <p id="pddx">On Repeat</p>
+  <center><img src="unique1.JPG" id="imgssssss"></center>
+  
+  </div>
+  
+  
+  
+  
+  
+  <div class="conta10"  onclick="myplaylist1()">
+      
+      <p id="pddx">Time capsule</p>
+      <center><img src="unique1.JPG" id="imgssssss"></center>
+
+    </div>
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      <div class="conta11" onclick="albatrouse()">
+          <p id="pddx">Repete Rewind</p>
+          <center><img src="unique2.png" id="imgssssss"></center>
+  
+          </div>
+          
+  
+  
+  
+  
+  
+  
+  
+  
+          <div class="conta12"  onclick="myplaylist1()"> 
+              <p id="pddx">Liked Songs</p>
+              <center><img src="unique3.png" id="imgssssss"></center>
+
+          </div>
+              
+  
+  </div>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+
+  
+
+
+
+
+
+
+<!-- audiosssssssssss -->
+
+
+
+<audio id="myAudio">
+    <source src="thenights.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="myAudioo">
+    <source src="wolves.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="myAudioo1">
+    <source src="pepes.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <audio id="myAudioo2">
+    <source src="badhabits.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  
+  <audio id="myAudioo3">
+    <source src="meditation.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo4">
+    <source src="btsbutter.mp3" type="audio/mpeg">
+  </audio>
+  
+  <audio id="myAudioo5">
+    <source src="radio1.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  
+  <audio id="myAudioo6">
+    <source src="darkside.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo7">
+    <source src="lilly.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo8">
+    <source src="just.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <audio id="myAudioo9">
+    <source src="albatrouse.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo10">
+    <source src="industrialbaby.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <audio id="myAudioo11">
+    <source src="watermelonsugar.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo12">
+    <source src="playdate.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <audio id="myAudioo13">
+    <source src="money.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo14">
+    <source src="onthefloor.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  
+  <audio id="myAudioo15">
+    <source src="cheapthrills.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <audio id="myAudioo16">
+    <source src="wolves.mp3" type="audio/mpeg">
+  </audio>
+  
+  
+  <!-- audiosss over -->
+  <!-- Change the below data attribute to play -->
+  <div class="progress-wrap progress" data-progress-percent="100">
+    <div class="progress-bar progress"></div>
+  </div>
+  
+  <div class="scroller">
+  
+    <input type="range" name="range" id="progressbar" min="0" max="100" value="0">
+    <div class="icons">
+      <i class="far fa-3x fa-play-circle" id="masterplay"  onclick="playAudio()"></i>
+      <i class="far fa-3x fa-pause-circle" id="masterpause" onclick="pauseAudio()"></i>
+  
+  <div class="songinfo">
+    <img src="Nt6v.gif" width="42px" alt="" id="gif"> <span id="masterSongName"></span>
+  
+  </div>
+  
+    </div>
+  </div>
+
+
+
+  <script>
+
+
+
+
+
+
+
+
+
+
+
+
+  document.addEventListener('play', function(e){
+      var audios = document.getElementsByTagName('audio');
+      for(var i = 0, len = audios.length; i < len;i++){
+          if(audios[i] != e.target){
+              audios[i].pause();
+         
+            }
+      }
+  }, true);
+  
+  
+  
+  
+  document.getElementById('masterpause').onclick = function() {
+    var sounds = document.getElementsByTagName('audio');
+    for(i=0; i<sounds.length; i++) sounds[i].pause();
+    document.getElementById("masterplay").style.display = "block";
+    document.getElementById("gif").style.opacity="0";
+  
+  
+  document.getElementById("masterpause").style.display = "none";
+  };
+  
+  
+  
+  
+  var x = document.getElementById("myAudio"); 
+  var y = document.getElementById("myAudioo"); 
+  var a = document.getElementById("myAudioo1");
+  var b = document.getElementById("myAudioo2");
+  var c = document.getElementById("myAudioo3");
+  var d = document.getElementById("myAudioo4");
+  var e = document.getElementById("myAudioo5");
+  var f = document.getElementById("myAudioo6");
+  var g = document.getElementById("myAudioo7");
+  var h = document.getElementById("myAudioo8");
+  var i = document.getElementById("myAudioo9");
+  var j = document.getElementById("myAudioo10");
+  var k = document.getElementById("myAudioo11");
+  var l = document.getElementById("myAudioo12");
+  var m = document.getElementById("myAudioo13");
+  var n = document.getElementById("myAudioo14");
+  var o = document.getElementById("myAudioo15");
+  var p = document.getElementById("myAudioo16");
+  
+  
+  
+  
+  
+  function badhabits(){
+  b.play();
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Bad Habits - Ed Sheeran"; 
+  }
+  
+  
+  
+  
+  
+  function top50india(){
+  y.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Wolves - Selena Gomez"; 
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function pepes(){
+  a.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Pepas -  Farruko"; 
+  
+  }
+  
+  
+  
+  
+  
+  
+  function myplaylist1(){
+  x.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "The Nights -  Avicii";
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function yoga()
+  {
+  c.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Relaxing Music";
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function top50english()
+  {
+  d.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Butter -  BTS";
+  }
+  
+  
+  
+  
+  
+  function radi()
+  {
+  e.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Faded -  Alan Walker";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "#Flashup By Knox Artiste";
+  
+  }
+  
+  
+  
+  
+  
+  function top50indtaa()
+  {
+  f.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Faded - Alan Walker";
+  
+  }
+  
+  
+  
+  
+  function likedsongs()
+  {
+  g.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Lost Control -  Alan Walker, Sorana";
+  
+  }
+  
+  
+  
+  
+  function tiktok()
+  
+  {
+  h.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Just Hold On - Louis Tomlinson, Steve Aoki";
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function albatrouse()
+  
+  
+  {
+  i.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "I'm an Albatraoz - AronChupa";
+  
+  }
+  
+  
+  
+  
+  function indusbaby()
+  
+  
+  {
+  j.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Industrial Baby -  Lil Nas X, Jack Harlow";
+  
+  }
+  
+  
+  
+  function watersugar()
+  
+  
+  {
+  k.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Watermelon Sugar -  Harry Styles";
+  
+  }
+  
+  
+  
+  
+  function playdate()
+  
+  
+  {
+  l.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Play Date -  Melanie Martinez";
+  }
+  
+  
+  
+  
+  function money()
+  
+  
+  {
+  m.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Money - Lalisa";
+  }
+  
+  
+  function onthefloor()
+  
+  
+  {
+  n.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "On The Floor - Jennifer Lopez";
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  function cheapthrills()
+  
+  
+  {
+  o.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Cheap Thrills - Sia";
+  }
+  
+  
+  
+  function wolves()
+  
+  
+  {
+  p.play();
+  
+  document.getElementById("masterplay").style.display = "none";
+  
+  document.getElementById("masterpause").style.display = "block";
+  
+  document.getElementById("gif").style.opacity="1";
+  
+  document.getElementById("masterSongName").innerHTML = "Wolves - Selina Gomez";
+  }
+
+  
+  
+  </script>
+  
+</body>
+</html>

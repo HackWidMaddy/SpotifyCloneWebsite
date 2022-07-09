@@ -1,0 +1,124 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container1{
+    cursor: pointer;
+    color: #d3d0d0;
+    border: none;
+    background:url("bgcontainer1.jpg");
+    margin: 0;
+    padding: 0;
+    border: 0;
+text-decoration: none;
+
+    vertical-align: baseline;
+    
+    
+}
+#dots{
+font-size: 3em;
+padding-left: 0.3em;
+}
+#home{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.5em;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+        color: #d3d0d0;
+}
+
+#home2{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    transition: all;
+padding-left: 0.5em;    
+cursor: pointer;
+color: #d3d0d0;
+}
+#home:hover{
+color: white;}
+
+
+
+#search{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 0.5em;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        color: #d3d0d0;
+}
+#search:hover{
+    color: white;}
+    
+#search2{
+    transition: all;
+padding-left: 0.7em;    
+cursor: pointer;
+}
+
+
+
+#library{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+        cursor: pointer;
+        color: #d3d0d0;
+}
+#library2{
+    transition: all;
+padding-left: 0.7em;
+padding-left: 1em; 
+padding-right: 0.2em;   
+cursor: pointer;
+color: #d3d0d0;
+}
+#library:hover{
+    color: white;}
+    
+
+
+
+
+#likedsongs{
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+    padding-left: 0.8em;
+    color: #d3d0d0;
+    cursor: pointer;}
+#likedsongs:hover{
+    color: white;}
+    
+
+
+    #⎯{
+      color:  #d3d0d0;
+    }
+
+#top50{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    transition: ease-in-out;
+        transition-duration: 0.5s;
+    padding-left: 0.8em;
+    cursor: pointer;
+    color: #d3d0d0;
+}
+
+
+
+#top50:hover{
+    color: white;}
+    
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
